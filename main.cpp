@@ -22,7 +22,7 @@ Card::Card(const string s, const string f) : symbol(s), face(f) {
 }
 
 //Class extends card and holds all 52 cards.
-
+//test
 class Deck : public Card {
 	vector<Card>* deckOfCards;
 	string face[13]{ "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
